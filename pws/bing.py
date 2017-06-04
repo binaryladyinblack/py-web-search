@@ -110,8 +110,8 @@ class Bing:
                             continue
             if len(new_results) == 0:
                 break
-            if related_queries == []:
-                related_queries = Bing.scrape_related(soup)
+            #if related_queries == []:
+            #   related_queries = Bing.scrape_related(soup)
 
         results = results[:num]
 
